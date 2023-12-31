@@ -18,11 +18,11 @@
         <div class="formRegister">
             <form action="post">
                 <label class="lbLogin" for="email"> Email </label>
-                <input class ="login"type="email" name="email" id="email">
+                <input required class ="login"type="email" name="email" id="email">
                 <label class="lbLogin" for="username"> Username </label>
-                <input class ="login" type="username" name="username" id="username">
+                <input required class ="login" type="username" name="username" id="username">
                 <label class="lbLogin" for="password">Password</label>
-                <input class="login" type="password" name="password" id="password">
+                <input  required class="login" type="password" name="password" id="password" minlength="8" pattern="[A-Z][a-z][0-9]*****">
                 <div class="condiciones">
                 <ul class="requerimientos">
                     <li class="condicion "><span class="gris">One lowercase character </span></li>
@@ -33,7 +33,7 @@
                 </ul>
                 </div>
                 <div class="AceptaryEnviar">
-                <input class="btSignUp"type="button" name="signup" value="Sign Up">
+                <input class="btSignUp"type="submit" name="signup" value="Sign Up">
                 <input class="acepto"type="checkbox" id="acepto" name="acepto"> 
                 <label class="lbAcepto" for="acepto">I don´t want to receive emails about new Mailchimp products, bests practices or special offers</label>
                 </div>

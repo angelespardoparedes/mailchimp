@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp Form</title>
+    <link rel="stylesheet" href="mailchimp.css">
+</head>
+<body>
+    <div class="logo"> <img src="../imagenes/mailchimp-logo.svg"> </div>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to Mailchimp</h1>
+            <p class="fraseMotivadora">Find your people. Engage your customers. Build your brand. Do it all with Mailchimp´s Marketing Platform. Already have an account <a href="#"> Log in </a> </p>
+        </header>
+
+        <div class="formRegister">
+            <form action="post">
+                <label class="lbLogin" for="email"> Email </label>
+                <input class ="login"type="email" name="email" id="email">
+                <label class="lbLogin" for="username"> Username </label>
+                <input class ="login" type="username" name="username" id="username">
+                <label class="lbLogin" for="password">Password</label>
+                <input class="login" type="password" name="password" id="password">
+                <div class="condiciones">
+                <ul class="requerimientos">
+                    <li class="condicion">One lowercase character c</li>
+                    <li class="condicion">One uppercase character c</li>
+                    <li class="condicion">One number c</li>
+                    <li class="condicion">One special character</li>
+                    <li class="condicion">8 characters minimum</li>
+                </ul>
+                </div>
+                <div class="AceptaryEnviar">
+                <input type="button" name="signup" value="Sign Up">
+                <input class="acepto"type="checkbox" id="acepto" name="acepto"> 
+                <label class="lbAcepto" for="acepto">I don´t want to receive emails about new Mailchimp products, bests practices or special offers</label>
+                </div>
+            </form>
+                <p> By clicking the Signup button, you are creating a Mailchimp and you agree to Mailchimp´s <a>Terms of Service</a> and <a> Privacy Policy </a></label> </p> 
+
+        </div>
+    </div>
+    
+</body>
+</html>

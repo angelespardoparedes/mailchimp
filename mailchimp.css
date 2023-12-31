@@ -58,4 +58,10 @@ header a{
 .condicion{
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom:1px; 
+    color: rgba(79, 79, 138, 0.614);
+}
+
+.gris{
+    color:rgb(69, 67, 67)
 }
